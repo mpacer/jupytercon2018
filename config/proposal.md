@@ -41,24 +41,25 @@ to do today, JupyterLab introduces new configuration systems and
 user-friendly interfaces for setting those configuration values.
 
 The talk will be organised around concrete examples to illustrate the ideas needed to use, understand, and  Jupyter's configuration system
-rather than describing high-level concepts. We will discuss topics such as:
+rather than describing high-level concepts. This will involve case studies of a 
+number of Jupyter libraries, including `nbconvert`, the `notebook` server, 
+`jupyterlab-latex`, or `traitlets.config`, amongst others.
+
+We will discuss topics such as:
 
 - Jupyter's python-based configuration systems (via traitlets.config)
-    - examples illustrating where configuration values can be set, and why you 
-      would use each. E.g.,:
+    - How to set, and why you would set configuration settings…
         - on the command line,
-        - in configuration files
-        - in programmatic code
-    - examples showing functional differences between `.py` and `.json` config 
-      files and why you would use each
-    - examples demonstrating Jupyter's hierarchical semantics for setting, 
-      inheriting and overwriting config values
-    - examples explaining what it means to install, enable and disable
-      serverextensions
-        - example of how to set up a library so that when the library is 
-          installed it automatically installs and enables its serverextensions
-    - examples of how to use `jupyter_conf_search` to help when debugging 
-      configuration issues by programmatically finding their source
+        - in configuration files,
+        - or, in programmatic code.
+    - Why you would use either a `.py` or a `.json` config file.
+    - How `jupyter_conf_search` can help you easily hunt down configuration 
+      issues, without requiring that you understand Jupyter's hierarchical 
+      config semantics when all you want to do is fix a bug. 
+    - How to best use using Jupyter's hierarchical config semantics for its 
+      intended purpose.  
+    - What serverextensions are, how to install/enable/disable them, and how to 
+      add new configuration settings to a non-configurable APIhandler. 
 - JupyterLab's configuration systems
     - examples illustrating Jupyterlab's hierarchical semantics for setting,
       inheriting, and overwriting configuration values at the system, user and
@@ -69,7 +70,7 @@ rather than describing high-level concepts. We will discuss topics such as:
     - examples of how to enable and disable labextensions 
 
 MP: Darian, I wasn't sure what all you would want to cover as concrete examples,
-so I wrote a few things that came to mine
+so I wrote a few things that came to mind as things I'd want to know.
 
 
 ## Who is this presentation for?
@@ -89,6 +90,7 @@ labextensions), Jupyter contributors
 - When to use different kinds of configuration files
 - How to automatically enable serverextensions when pip installing a library 
 - How to find configuration files that are currently in use
+- Best practices for exposing configuration to a notebook, tornado-based API handler for the jupyter server.
 - How to use jupyter_conf_search to debug configuration issues 
 - How to change the settings in jupuyterlab via the settings editor, the raw 
   json editor, or the configuration files themselves
