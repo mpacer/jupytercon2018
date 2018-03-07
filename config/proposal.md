@@ -82,9 +82,8 @@ Jupyter users, Jupyter extension developers (both `serverextension`s and
 - How to set configuration values from the command line, via static files, and programmatically.
 - How to create new configuration options in Jupyter applications and extensions
 - How to automatically enable `serverextension`s when `pip install`ing a library .
-- How to find configuration files that are currently in use.
 - Best practices for exposing configuration to a notebook, Tornado-based API handler for the Jupyter server.
-- How to use `jupyter_conf_search` to debug configuration issues. 
+- How to use `jupyter_conf_search` to debug configuration issues and find configuration files currently in use.
 - How to change JupyterLab settings, keyboard shortcuts and themes within the lab user interface.
 - How to reset stored layout information and create saved workspaces.
 - How to enable and disable `labextension`s (as a developer and a user), including 
@@ -117,9 +116,10 @@ https://www.youtube.com/watch?v=V3cENs1UYQU&list=PL055Epbe6d5aP6Ru42r7hk68GTSacl
 
 
 ## Speaker Bios
-Afshin Darian is one of the co-authors of JupyterLab. He has been active in the open source community for several years.
 
-M Pacer is a Jupyter core developer at the Berkeley Institute for Data Science (BIDS) focusing on the intersection between Jupyter and scientific publishing (with an eye toward constructing a total scientific record that is more amenable to machine learning techniques). M holds a PhD from UC Berkeley, where their research used machine learning and human experiments to study casual explanation and causal inference, and a BS from Yale University.
+Afshin Darian is a Jupyter core developer and co-author of JupyterLab. He has been active in the open-source community for several years and has worked at several open-source enterprises, including Anaconda (née Continuum Analytics), Alfresco Software, and OpenGamma. He likes to think slowly. Darian holds degrees in philosophy and medieval history.
+
+M Pacer is a Jupyter core developer at the Berkeley Institute for Data Science (BIDS) focusing on the intersection between Jupyter and scientific publishing (with an eye toward constructing a total scientific record that is more amenable to machine learning techniques). M holds a PhD from UC Berkeley, where their research used machine learning and human experiments to study causal explanation and causal inference, and a BS from Yale University.
 
 
 ## Outlining
