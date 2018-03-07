@@ -12,7 +12,7 @@ systems*
 Jupyter's defaults make starting easy, but good defaults only go so far.
 Eventually, everyone wants something to be different; they use configuration
 settings to make it so. Jupyter's config systems are powerful and flexible,
-but subtle and easy to misconfigure, causing hard-to-debug issues. We will explain Jupyter's config systems, how to use them, and how to debug them if something goes wrong. 
+but subtle and complicated, resulting in hard-to-debug issues. We will explain Jupyter's config systems, how to use them, and how to debug them if something goes wrong. 
 
 ## Abstract (3-6 paragraphs)
 
