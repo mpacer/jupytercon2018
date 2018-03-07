@@ -55,7 +55,7 @@ We will discuss topics such as:
         - or, in programmatic code.
     - The many scopes of configuration, and how to use them to your advantage.
     - What `serverextension`s are, how to install/enable/disable them 
-    - How to build configurable APIhandlers and non-configurable APIhandlers 
+    - How to build configurable API handlers and non-configurable API handlers 
       that can still use configuration files.
     - How to use `jupyter_conf_search` to help you hunt down configuration 
       issues.
@@ -64,9 +64,8 @@ We will discuss topics such as:
     - How to set custom keybindings.
     - How to save and manipulate user sessions, *i.e.*, JupyterLab workspaces.
     - How to enable and disable `labextension`s.
-    - What to grok about Jupyterlab's hierarchical semantics for creating
-      defaults (which can be overridden by system adminstrators) and allowing
-      user overrides.
+    - How to reason about Jupyterlab's hierarchical semantics for creating
+      defaults and allowing overrides.
 
 ## Who is this presentation for?
 
@@ -82,14 +81,12 @@ Jupyter users, Jupyter extension developers (both `serverextension`s and
 
 - How to set configuration values from the command line, via static files, and programmatically.
 - How to create new configuration options in Jupyter applications and extensions
-- When to use different kinds of configuration files.
 - How to automatically enable `serverextension`s when `pip install`ing a library .
 - How to find configuration files that are currently in use.
 - Best practices for exposing configuration to a notebook, Tornado-based API handler for the Jupyter server.
 - How to use `jupyter_conf_search` to debug configuration issues. 
-- How to change the settings in JupyterLab via the settings editor, the raw 
-  json editor, or the configuration files themselves.
-- How to set custom keybindings.
+- How to change in JupyterLab settings within the lab user interface.
+- How to use themes and custom keybindings.
 - How to reset stored layout information and create saved workspaces.
 - How to enable and disable `labextension`s (as a developer and a user), including 
   core JupyterLab extensions
@@ -122,5 +119,8 @@ https://www.youtube.com/watch?v=V3cENs1UYQU&list=PL055Epbe6d5aP6Ru42r7hk68GTSacl
 
 ## Speaker Bios
 Afshin Darian is one of the co-authors of JupyterLab. He has been active in the open source community for several years.
+
+M Pacer is a Jupyter core developer at the Berkeley Institute for Data Science (BIDS) focusing on the intersection between Jupyter and scientific publishing (with an eye toward constructing a total scientific record that is more amenable to machine learning techniques). M holds a PhD from UC Berkeley, where their research used machine learning and human experiments to study casual explanation and causal inference, and a BS from Yale University.
+
 
 ## Outlining
