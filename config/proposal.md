@@ -57,8 +57,7 @@ Jupyter users, Jupyter extension developers (both `serverextension`s and `labext
 - Best practices for exposing configuration to a Tornado-based API handler for the Jupyter server.
 - How to use `jupyter_conf_search` to debug configuration issues and find configuration files currently in use.
 - How to change JupyterLab settings, keyboard shortcuts and themes within the lab user interface.
-- How to enable and disable `labextension`s (as a developer and a user), including 
-  core JupyterLab extensions.
+- How to enable and disable `labextension`s (as a developer and a user), including core JupyterLab extensions.
 - How to create new configurable settings in `labextension`s.
 
 
@@ -71,9 +70,7 @@ How-to
 
 > This information is crucial for attendees. Please describe what skills and knowledge attendees need to have in order to get the most from your talk.
 
-- some knowledge of Jupyter 
-- Familiarity with JSON will be helpful, but is not necessary. 
-- Some idea of what a configuration file is will be helpful, but not necessary
+- Some knowledge of Jupyter 
 
 ## Special Equipment needs
 
