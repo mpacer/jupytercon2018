@@ -12,9 +12,7 @@ systems*
 Jupyter's defaults make starting easy, but good defaults only go so far.
 Eventually, everyone wants something to be different; they use configuration
 settings to make it so. Jupyter's config systems are powerful and flexible,
-but finicky and fragile, causing hard-to-debug issues. We will explain Jupyter's
-config systems, how to use them, and how to debug them when something
-(inevitably) goes wrong. 
+but subtle and easy to misconfigure, causing hard-to-debug issues. We will explain Jupyter's config systems, how to use them, and how to debug them if something goes wrong. 
 
 ## Abstract (3-6 paragraphs)
 
@@ -28,9 +26,7 @@ powerful, flexible configuration systems inspire users' creativity and
 enthusiasm. By enabling people to customise how they want their tools to work,
 Jupyter's config systems allow people to determine their own computational
 destiny. At the same time, with great power comes great fragility — the same
-config files that enable user freedom and empowerment are a source of user
-frustration and confusion. Because of how Jupyter's configuration systems work,
-tracing down the source of a configuration issue can be an arduous task. 
+config files that enable user freedom and empowerment are a potential source of user frustration and confusion. Because of how Jupyter's configuration systems work, tracing down the source of a configuration issue can be an arduous task. 
 
 Despite their crucial role in determining the overall user experience, Jupyter's
 configuration systems have never been treated as a singular topic. In this talk,
@@ -47,7 +43,7 @@ number of Jupyter libraries, including `nbconvert`, the `notebook` server,
 
 We will discuss topics such as:
 
-- Jupyter's python-based configuration systems (via traitlets.config)
+- Jupyter's Python-based configuration systems (via traitlets.config)
     - How to set, and why you would set configuration settings…
         - on the command line,
         - in configuration files,
@@ -61,43 +57,39 @@ We will discuss topics such as:
     - What serverextensions are, how to install/enable/disable them, and how to 
       add new configuration settings to a non-configurable APIhandler. 
 - JupyterLab's configuration systems
-    - examples illustrating Jupyterlab's hierarchical semantics for setting,
-      inheriting, and overwriting configuration values at the system, user and
-      …(sorry Darian, I am blanking on the third one) levels
-    - examples of how to use themes and user display settings
-    - examples of how to set custom keybindings
-    - examples showing how users' layouts are saved and how to reset them
-    - examples of how to enable and disable labextensions 
-
-MP: Darian, I wasn't sure what all you would want to cover as concrete examples,
-so I wrote a few things that came to mind as things I'd want to know.
-
+    - What to grok about Jupyterlab's hierarchical semantics for creating
+      defaults (which can be overridden by system adminstrators) and allowing
+      user overrides.
+    - How to use themes.
+    - How to set custom keybindings.
+    - How to save and manipulate user sessions, *i.e.*, JupyterLab workspaces.
+    - How to enable and disable labextensions.
 
 ## Who is this presentation for?
 
 > (Job titles/functions and/or experience, for instance)
 
-Jupyter users, Jupyter extension developers (both serverextensions and
-labextensions), Jupyter contributors 
+Jupyter users, Jupyter extension developers (both `serverextension`s and
+`labextension`s), Jupyter contributors 
 
 
 ## What's the takeaway for the audience?
 
 > Main ideas and/or skills attendees will learn from your presentation
 
-- How to set configuration values from the command line, via static files, and programmatically
+- How to set configuration values from the command line, via static files, and programmatically.
 - How to create new configuration options in Jupyter applications and extensions
-- When to use different kinds of configuration files
-- How to automatically enable serverextensions when pip installing a library 
-- How to find configuration files that are currently in use
-- Best practices for exposing configuration to a notebook, tornado-based API handler for the jupyter server.
-- How to use jupyter_conf_search to debug configuration issues 
-- How to change the settings in jupuyterlab via the settings editor, the raw 
-  json editor, or the configuration files themselves
-- How to set custom keybindings
-- How to reset stored layout information
-- How to enable and disable labextensions (as a developer and a user), including 
-  core jupyterlab extensions
+- When to use different kinds of configuration files.
+- How to automatically enable `serverextension`s when `pip install`ing a library .
+- How to find configuration files that are currently in use.
+- Best practices for exposing configuration to a notebook, Tornado-based API handler for the Jupyter server.
+- How to use `jupyter_conf_search` to debug configuration issues. 
+- How to change the settings in JupyterLab via the settings editor, the raw 
+  json editor, or the configuration files themselves.
+- How to set custom keybindings.
+- How to reset stored layout information and create saved workspaces.
+- How to enable and disable `labextension`s (as a developer and a user), including 
+  core JupyterLab extensions
 
 
 
@@ -122,11 +114,10 @@ How-to
 M: Pacer, M, Hamrick, J., & Avila, D. (2017) The Jupyter notebook as document: From structure to application. Jupytercon 2017, New York, NY. 
 https://www.youtube.com/watch?v=V3cENs1UYQU&list=PL055Epbe6d5aP6Ru42r7hk68GTSaclYgi&t=158s&index=64
 
-Darian:
-
 ## Reimbursement needs for travel or other conference-related expenses
 
 
 ## Speaker Bios
+Afshin Darian is one of the co-authors of JupyterLab. He has been active in the open source community for several years.
 
 ## Outlining
