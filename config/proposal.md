@@ -2,31 +2,35 @@
 
 ## Title
 
-*Configuring Jupyter: using, understanding, and debugging Jupyter's config
-systems*
+*Making Jupyter your own: user configuration across the Jupyter ecosystem*
 
 ## Description (400chars)
 
 > brief overview for marketing purposes, max. length 400 characters—about 65 words
 
-Jupyter's defaults make starting easy, but good defaults only go so far.
-Eventually, everyone wants something to be different; they use configuration
-settings to make it so. Jupyter's config systems are powerful and flexible,
-but subtle and complicated, resulting in hard-to-debug issues. We will explain Jupyter's config systems, how to use them, and how to debug them if something goes wrong. 
+Jupyter's defaults make starting easy, but good defaults only go so far. We want
+to enable users to go beyond the defaults and make Jupyter their own through
+Jupyter's powerful, flexible configuration systems. But these systems can be
+subtle and complicated, resulting in hard-to-debug issues. We will explain
+Jupyter's config systems, how to use them, and how to debug if something
+goes wrong. 
 
 ## Abstract (3-6 paragraphs)
 
 > (Longer, more detailed description (3-6 paragraph, bullet points welcome) of your presentation to help the program committee understand what you will cover. If your proposal is chosen, this is the description that will appear on the website. Note that our copywriters may edit it for consistency and O'Reilly voice.)
 
 Jupyter's straightforward, out-of-the-box experience has been important for its
-success in wide-spread adoption. But good defaults only go so far.
+success in wide-spread adoption. But good defaults only go so far. In this talk,
+we want to empower users to go beyond the defaults and make Jupyter their own.
 
 As much as the defaults encourage adoption, Jupyter's modular design and
 powerful, flexible configuration systems inspire users' creativity and
 enthusiasm. By enabling people to customise how they want their tools to work,
 Jupyter's config systems allow people to determine their own computational
 destiny. At the same time, with great power comes great fragility — the same
-config files that enable user freedom and empowerment are a potential source of user frustration and confusion. Because of how Jupyter's configuration systems work, tracing down the source of a configuration issue can be an arduous task. 
+config files that enable user freedom and empowerment are a potential source of
+user frustration and confusion. Because of how Jupyter's configuration systems
+work, tracing down the source of a configuration issue can be an arduous task. 
 
 Despite their crucial role in determining the overall user experience, Jupyter's
 configuration systems have never been treated as a singular topic. In this talk,
@@ -36,10 +40,11 @@ how to debug them when things (inevitably) break. This is all the more important
 to do today, JupyterLab introduces new configuration systems and 
 user-friendly interfaces for setting those configuration values.
 
-The talk will be organised around concrete examples to illustrate the ideas needed to use, understand, and  Jupyter's configuration system
-rather than describing high-level concepts. This will involve case studies of a 
-number of Jupyter libraries, including `nbconvert`, the `notebook` server, 
-`jupyterlab-latex`, or `traitlets.config`, amongst others.
+The talk will be organised around concrete examples and demos to illustrate the
+ideas needed to use, understand, and debug Jupyter's configuration system. Some
+topics will be demonstrations of Jupyterlab UIs, while others will show the role
+of configuration across a number of Jupyter libraries, including `nbconvert`,
+the `notebook` server, `jupyterlab-latex`, and `traitlets.config`.
 
 We will discuss topics such as:
 
@@ -48,22 +53,20 @@ We will discuss topics such as:
         - on the command line,
         - in configuration files,
         - or, in programmatic code.
-    - Why you would use either a `.py` or a `.json` config file.
-    - How `jupyter_conf_search` can help you easily hunt down configuration 
-      issues, without requiring that you understand Jupyter's hierarchical 
-      config semantics when all you want to do is fix a bug. 
-    - How to best use using Jupyter's hierarchical config semantics for its 
-      intended purpose.  
-    - What serverextensions are, how to install/enable/disable them, and how to 
-      add new configuration settings to a non-configurable APIhandler. 
+    - The many scopes of configuration, and how to use them to your advantage.
+    - What `serverextension`s are, how to install/enable/disable them 
+    - How to build configurable APIhandlers and non-configurable APIhandlers 
+      that can still use configuration files.
+    - How to use `jupyter_conf_search` to help you hunt down configuration 
+      issues.
 - JupyterLab's configuration systems
-    - What to grok about Jupyterlab's hierarchical semantics for creating
-      defaults (which can be overridden by system adminstrators) and allowing
-      user overrides.
     - How to use themes.
     - How to set custom keybindings.
     - How to save and manipulate user sessions, *i.e.*, JupyterLab workspaces.
-    - How to enable and disable labextensions.
+    - How to enable and disable `labextension`s.
+    - What to grok about Jupyterlab's hierarchical semantics for creating
+      defaults (which can be overridden by system adminstrators) and allowing
+      user overrides.
 
 ## Who is this presentation for?
 
