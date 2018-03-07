@@ -85,8 +85,7 @@ Jupyter users, Jupyter extension developers (both `serverextension`s and
 - How to find configuration files that are currently in use.
 - Best practices for exposing configuration to a notebook, Tornado-based API handler for the Jupyter server.
 - How to use `jupyter_conf_search` to debug configuration issues. 
-- How to change in JupyterLab settings within the lab user interface.
-- How to use themes and custom keybindings.
+- How to change JupyterLab settings, keyboard shortcuts and themes within the lab user interface.
 - How to reset stored layout information and create saved workspaces.
 - How to enable and disable `labextension`s (as a developer and a user), including 
   core JupyterLab extensions
