@@ -25,8 +25,8 @@ objects with Jupyter. Some of these examples are:
     - by adding custom `_repr_*_` methods 
     - by using updatable displays
 - libraries that enable new kinds of displays, including:
-    - `vdom`: a library for React-like declarative layouts
-    - `display_xml`: a library for displaying highlighted, indented XML
+    - `vdom`: a Python library for React-like declarative layouts
+    - `display_xml`: a Python library for displaying highlighted, indented XML
 - how to convert notebooks into custom objects using `nbconvert`, which allows:
     - hiding prompts and code cells to show only the output figures
     - html where you can toggle whether individual code cells are visible
@@ -59,11 +59,10 @@ objects to communicate with Jupyter.
 
 - What mimetypes are, and how they are used in the Jupyter display protocol.
 - How to create Python classes with rich displays.
-- How to provide multiple outputs with multiple mimetypes using 
-  `_repr_mimebundle_`.
+- How to provide outputs with multiple mimetypes using `_repr_mimebundle_`.
 - How to update displays using `display_id`s.
 - How to use `vdom` to create declarative layouts in Python.
-- How to use `pygments` as part of a `_repr_*_` method for highlighting text.
+- How to use `pygments` in a `_repr_*_` method for highlighting output text.
 - How to design and use custom templates for `nbconvert`.
 - How to hide code cells and prompts in exported formats. 
 - How to provide mimetype specific output metadata.
@@ -74,10 +73,7 @@ How-to
 
 ## Prerequisite knowledge and/or requirements needed by attendees
 
-> This information is crucial for attendees. Please describe what skills and knowledge attendees need to have in order to get the most from your talk.
-
-- A basic understanding of Python classes and methods (we'll be using them a
-  lot).
+- A basic understanding of Python classes and methods.
 
 ## Expertise expected
 
