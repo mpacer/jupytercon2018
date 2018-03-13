@@ -50,7 +50,7 @@ underlying concepts:
 
 ## Who is this presentation for?
 
-Jupyter users, Python library developers, or anyone who wants use beautiful
+Jupyter users, Python library developers, or anyone who wants to use beautiful
 objects to communicate with Jupyter.
 
 ## What's the takeaway for the audience?
@@ -78,6 +78,10 @@ How-to
 
 - A basic understanding of Python classes and methods (we'll be using them a
   lot).
+
+## Expertise expected
+
+Intermediate  
 
 ## Speaker videos
 Pacer, M, Hamrick, J., & Avila, D. (2017) The Jupyter notebook as document: From structure to application. Jupytercon 2017, New York, NY. 

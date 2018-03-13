@@ -90,5 +90,3 @@ Afshin Darian is a Jupyter core developer and co-author of JupyterLab. He has be
 
 M Pacer is a Jupyter core developer at the Berkeley Institute for Data Science (BIDS) focusing on the intersection between Jupyter and scientific publishing (with an eye toward constructing a total scientific record that is more amenable to machine learning techniques). M holds a PhD from UC Berkeley, where their research used machine learning and human experiments to study causal explanation and causal inference, and a BS from Yale University.
 
-
-## Outlining
